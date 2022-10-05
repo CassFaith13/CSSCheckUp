@@ -1,37 +1,57 @@
-html, body {
+html {
     background-color: rgb(255, 207, 223);
-    padding: 0;
+    padding: 5px;
     margin: 0;
 }
 
-.purple {
+.howTo {
+    color: darkred;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+
+.instruction {
+    text-align: center;
     box-sizing: border-box;
     width: 650px;
-    height: 800px;
+    height: 900px;
     padding: 45px;  
     border: 1px solid black;
     box-shadow: 0 0 2px black;
     border-radius: 5px 5px 5px 5px;
     background-color: rgba(222, 10, 137, 0.476);
-    margin-left: 305px;
+    margin: auto;
     animation-name: example;
     animation-iteration-count: infinite;
-    animation-duration: 4s;
+    animation-duration: 6s;
 }
 
-#fun {
+.baddie {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
+    font-size: 15px;
     margin-top: 5px;
 }
 
+.list {
+    text-align: justify;
+}
+
 p {
-    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* .source {
+    text-align: center;
+} */
+
+.source img {
+    width: 400px;
+    align-content: center;
+    border: solid 1px black;
+}
+
 @keyframes example {
-    from {background-color: red};
-    to {background-color: yellow};
+    from {background-color: purple};
+    to {background-color: blue};
 }
